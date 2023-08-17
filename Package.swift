@@ -17,7 +17,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-       .package(url: "https://github.com/SDWebImage/SDWebImage.git", .branch("master")),
+       .package(url: "https://github.com/SDWebImage/SDWebImage.git", from: "5.17.0"),
        .package(url: "https://github.com/1Conan/librlottie-Xcode.git", .branch("master"))
     ],
     targets: [
